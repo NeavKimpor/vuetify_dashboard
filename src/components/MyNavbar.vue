@@ -18,20 +18,26 @@ export default {
 
 .title{
     width: 100%;
-    height: 20%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     background: #16B7DB;
 }
 img{
-    margin-top: 15px;
-    width: 180px;
-    margin-right: 10px;
+    margin-top: 12px;
+    width: 25vh;
+    margin-right: 1vh;
 }
 h1{
     color: white;
-    margin-left: 20px;
-    margin-top: 18px;
+    margin-left: 3vh;
+    margin-top: 2.5vh;
     font-family: 'Lora', serif; 
+}
+@media screen and (max-width: 1200px) {
+    .title {
+        width: auto;
+        height: auto;
+    }
 }
 </style>
