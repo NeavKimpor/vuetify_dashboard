@@ -377,6 +377,13 @@ input:checked + .slider:before {
     .bot-row .machine {
         margin-bottom: 4rem;
     }
-    
+    svg {
+        height: auto;
+        max-width: fit-content;
+    }
+    .info {
+        width: auto;
+        height: auto;
+    }
 }
 </style>
