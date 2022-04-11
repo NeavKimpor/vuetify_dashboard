@@ -378,8 +378,9 @@ input:checked + .slider:before {
         margin-bottom: 4rem;
     }
     svg {
-        height: auto;
-        max-width: fit-content;
+        height: 150px;
+        width: 200px;
+        padding: 1rem;
     }
     .info {
         width: auto;
