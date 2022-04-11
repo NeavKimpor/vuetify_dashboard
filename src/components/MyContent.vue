@@ -364,9 +364,9 @@ input:checked + .slider:before {
     }
     .machine {
         margin-top: 2vh;
-        width: 80%;
+        width: 95%;
         /* height: 50vh; */
-        /* height: auto; */
+        height: auto;
         background: white;
         border-radius: 20px;
         box-shadow: 5px 10px 18px #8888;
